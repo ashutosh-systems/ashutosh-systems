@@ -1,163 +1,153 @@
 # Ashutosh Sharma
 
-Backend Engineer | Python, Django, REST APIs | Fintech, Async Processing & Production Debugging
+Backend Engineer | Python, Django, REST APIs | Fintech Systems, Async Processing & Reliability
 
 ---
 
 ## About
 
-Backend Engineer with 2+ years of experience working on fintech backend systems using Python, Django, Django REST Framework, REST APIs, and microservice-based architectures.
+Backend Engineer with 2+ years of experience building and maintaining fintech backend systems using Python, Django, Django REST Framework, and microservice-based architectures.
 
-Worked at Crego on backend systems involving onboarding workflows, loan processing, identity, notification, reconciliation, document management, bank integrations, third-party API integrations, and background processing.
+Worked on onboarding, loan processing, identity, notification, reconciliation, workflow automation, and document management systems involving multiple services, background processing, and external integrations.
 
-Experienced in building backend APIs, handling multi-step workflows, debugging production issues, optimizing database queries, and improving reliability across API, queue, worker, database, and external service layers.
+Experience includes backend API development, bank and third-party integrations, workflow execution systems, async processing, query optimization, production debugging, and improving system reliability under real production conditions.
 
-Worked on client-specific fintech workflows for Tyger Capital, formerly Adani Capital, including document management system features, reconciliation-related workflows, bank integrations, and live production support.
+Worked on client-specific fintech workflows for Tyger Capital (formerly Adani Capital), including onboarding flows, reconciliation-related workflows, bank integrations, document management features, and live production support.
 
-Also worked on a DAG-based workflow application for Kinara Capital Private Limited, where workflows moved through different stages based on user actions, validations, and background processing.
+Also contributed to a DAG-based workflow application for Kinara Capital Private Limited, where workflows progressed through different stages based on validations, user actions, and background task execution.
 
-I focus on backend systems that are simple, traceable, reliable, and predictable under real-world conditions.
+Focuses on building backend systems that are predictable, traceable, and maintainable while handling retries, failures, delayed execution, and inconsistent external dependencies.
 
 ---
 
 ## Core Strengths
 
-Backend APIs • REST APIs • Django REST Framework  
-Async Processing • Celery • RabbitMQ • Redis  
+Backend APIs • Distributed Workflows • Async Processing  
 Production Debugging • Query Optimization • Reliability  
-Bank API Integrations • Third-Party Integrations • Failure Handling  
-Workflow Systems • Background Jobs • Data Consistency  
+Failure Handling • Idempotency • Data Consistency  
+Celery • RabbitMQ • Redis • PostgreSQL  
 
 ---
 
 ## Work
 
-**Fintech Backend Systems**  
-- Backend services for onboarding, loan processing, identity, notification, reconciliation, and document-related workflows  
-- REST API development using Django and Django REST Framework  
-- Handles multi-service interaction, external integrations, and state consistency  
-- Works on production issue fixes, workflow improvements, and backend reliability  
+### Fintech Backend Systems
 
-**Workflow-Based Systems**  
-- Multi-step processes such as onboarding → verification → completion  
-- Handles dependencies between steps and ensures correct execution flow  
-- Manages validations, user actions, background tasks, retries, and failures  
-- Worked on DAG-based workflow execution for stage-based business processes  
+- Built and maintained backend APIs using Django and Django REST Framework
+- Worked on onboarding, loan processing, identity, notification, reconciliation, and document-related modules
+- Handled multi-service workflows involving validations, background tasks, and external integrations
+- Worked on client-specific backend workflows and production support requirements
 
-**Document Management System**  
-- APIs for secure document upload, retrieval, and sharing  
-- Document storage and retrieval workflows for fintech use cases  
-- Token-based access and secure document handling  
-- Optimized retrieval performance by reducing unnecessary database calls  
+### Workflow Systems
 
-**Background Jobs**  
-- Implemented using Celery, RabbitMQ, and Redis  
-- Used for async processing, notifications, integrations, delayed tasks, and system operations  
-- Handles retries, queue delays, stuck jobs, and background execution issues  
-- Moves heavy or unreliable work outside the request-response flow  
+- Worked on multi-step workflow systems where execution depended on previous states and validations
+- Managed dependencies between workflow stages and background processing
+- Handled retries, failures, delayed execution, and inconsistent states across services
+- Contributed to DAG-based workflow execution systems for configurable business processes
 
-**External Integrations**  
-- Bank API integrations and third-party service integrations  
-- Handles failures, timeouts, retries, and inconsistent responses  
-- Maintains stability during partial execution and external dependency failures  
-- Debugs integration issues using logs, request flow, and task tracing  
+### Document Management System
+
+- Built APIs for secure document upload, retrieval, and sharing
+- Worked on document storage and retrieval workflows across cloud storage systems
+- Implemented token-based document access and controlled retrieval flows
+- Reduced unnecessary database operations and improved retrieval performance
+
+### Background Processing
+
+- Implemented async/background jobs using Celery, RabbitMQ, and Redis
+- Used background processing for notifications, integrations, delayed tasks, and workflow execution
+- Handled queue backlogs, retried tasks, delayed execution, and failure recovery
+- Moved heavy or unreliable operations outside the request-response cycle
+
+### External Integrations
+
+- Worked on bank API and third-party service integrations
+- Handled failures, retries, timeouts, and inconsistent responses from external systems
+- Improved stability during partial execution and dependency failures
+- Debugged integration issues through request tracing and production logs
 
 ---
 
 ## Core Work
 
-- Designing and maintaining backend APIs using Python, Django, and Django REST Framework  
-- Building REST APIs for onboarding, loan processing, identity, notification, reconciliation, and document workflows  
-- Handling multi-step execution flows and workflow state transitions  
-- Working on DAG-based workflow systems with validations and background processing  
-- Implementing async/background processing using Celery, RabbitMQ, and Redis  
-- Debugging production issues across API → queue → worker → database → external service  
-- Fixing slow APIs caused by inefficient queries and repeated database calls  
-- Optimizing queries using indexing, pagination, select_related, and prefetch_related  
-- Using Redis caching for frequently accessed data where it improves real performance  
-- Handling failures in bank APIs, third-party APIs, and external dependencies  
-- Managing retries, delayed jobs, queue backlogs, and stuck task execution  
-- Improving backend reliability through root-cause fixes and simpler execution flow  
-- Supporting deployments and production systems using Docker, AWS ECS, CloudWatch, and CI/CD  
+- Designing and maintaining backend APIs and workflow systems
+- Building APIs for onboarding, loan processing, identity, notification, and reconciliation flows
+- Managing multi-step execution flows and workflow state transitions
+- Implementing async/background processing using Celery and RabbitMQ
+- Debugging production issues across API → queue → worker → database layers
+- Fixing slow APIs caused by inefficient queries and repeated database calls
+- Optimizing queries using indexing, pagination, select_related, and prefetch_related
+- Improving backend reliability through root-cause fixes and execution flow improvements
+- Handling failures in external APIs and distributed service interactions
+- Supporting deployments and production systems using Docker and AWS ECS
 
 ---
 
 ## Engineering
 
-- Keep APIs lightweight and avoid blocking operations  
-- Move heavy or unreliable work out of the request-response cycle  
-- Use background jobs for delayed, dependent, or failure-prone operations  
-- Design tasks carefully to avoid duplicate execution  
-- Make system behavior explicit, traceable, and easier to debug  
-- Optimize database queries before scaling infrastructure  
-- Use Redis caching only where it improves real performance  
-- Handle retries, failures, and partial execution carefully  
-- Keep backend systems simple, maintainable, and predictable  
-- Focus on root-cause fixes instead of temporary patches  
+- Keep APIs lightweight and avoid blocking operations
+- Move heavy or unreliable work outside request flow
+- Design tasks carefully to avoid duplicate execution
+- Make system behavior explicit and traceable
+- Optimize queries before scaling infrastructure
+- Use caching only where it improves actual performance
+- Prefer simpler systems for easier debugging and maintenance
+- Focus on predictable execution under real production conditions
 
 ---
 
 ## Production
 
-- Investigated delayed, retried, and stuck Celery task execution  
-- Debugged production issues by analyzing logs and tracing request/task flow  
-- Fixed slow APIs caused by inefficient queries and repeated database calls  
-- Improved endpoint performance using query optimization and pagination  
-- Handled failures and inconsistent responses from external APIs  
-- Moved heavy operations from request-response flow to background processing  
-- Improved system stability during partial failures and delayed processing  
-- Worked on live production support for fintech backend workflows  
-- Deployed and monitored services using Docker, AWS ECS, CloudWatch, and CI/CD workflows  
+- Investigated delayed and stuck Celery task execution
+- Fixed slow endpoints caused by inefficient database access
+- Improved reliability by addressing root causes instead of temporary fixes
+- Handled failures and inconsistent responses from external dependencies
+- Reduced latency by restructuring backend execution flow
+- Debugged issues using logs, task tracing, and request flow analysis
+- Worked on live production support for fintech backend systems
+- Improved deployment consistency using Docker, CI/CD, and AWS services
 
 ---
 
 ## Stack
 
-**Languages**  
-Python, SQL  
+### Languages
+Python, SQL
 
-**Backend**  
-Django, Django REST Framework, FastAPI, Flask, REST APIs, Microservices  
+### Backend
+Django, Django REST Framework, FastAPI, Flask
 
-**Messaging & Jobs**  
-Celery, RabbitMQ, Redis, Async Processing, Background Jobs, Delayed Tasks, Retries  
+### Messaging & Background Jobs
+Celery, RabbitMQ, Redis
 
-**Databases**  
-PostgreSQL, MySQL, MongoDB, DynamoDB  
+### Databases
+PostgreSQL, MySQL, MongoDB, DynamoDB
 
-**Cloud & Infrastructure**  
-AWS ECS, AWS S3, CloudWatch, Route53  
+### Cloud & Infrastructure
+AWS ECS, S3, CloudWatch, Route53
 
-**DevOps & Tooling**  
-Docker, Git, GitHub Actions, CI/CD, Logging, Monitoring, Debugging Tools  
+### DevOps & Tooling
+Docker, Git, GitHub Actions, CI/CD  
+Logging, Monitoring, Debugging Tools
 
-**APIs & Security**  
-REST APIs, Bank API Integrations, Third-Party Integrations, OAuth2, SAML, Token-Based Access  
+### APIs & Security
+REST APIs, OAuth2, SAML  
+Bank API Integrations, Third-Party Integrations
 
-**AI-Assisted Development**  
-Claude Code  
+### AI-Assisted Development
+Claude Code
 
 ---
 
 ## Focus
 
-Build backend systems that behave predictably under real-world conditions  
+Build backend systems that behave predictably under real-world conditions
 
-Design APIs and workflows that are simple, traceable, and maintainable  
+Improve reliability through debugging, query optimization, and cleaner execution flow
 
-Handle failures, retries, async processing, and external dependencies carefully  
+Handle retries, failures, background processing, and distributed workflows carefully
 
-Fix root causes instead of temporary production issues  
-
-Improve system reliability through debugging, query optimization, and cleaner execution flow  
-
----
-
-## Open To
-
-Backend Software Engineer opportunities  
-
-Immediate Joiner  
+Keep systems maintainable, traceable, and simpler to operate in production
 
 ---
 
